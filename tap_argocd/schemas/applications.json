@@ -1,0 +1,245 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "uid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "namespace": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "project": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "labels": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "annotations": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "owner_kind": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "owner_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "sources": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "repo_url": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "path": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "target_revision": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "chart": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "ref": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "destination_server": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "destination_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "destination_namespace": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "automated_sync": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "sync_status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "sync_revision": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "sync_revisions": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "health_status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "reconciled_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "operation_phase": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "operation_started_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "operation_finished_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "images": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "external_urls": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "manages_applications": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "resources_count": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "history_limit": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "inserted_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  }
+}

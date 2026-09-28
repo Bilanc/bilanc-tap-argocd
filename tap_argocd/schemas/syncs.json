@@ -1,0 +1,213 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "app_uid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "app_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "app_namespace": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "project": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "destination_server": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "destination_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "destination_namespace": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "history_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "revision": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "revisions": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "sources": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "repo_url": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "path": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "target_revision": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "chart": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "ref": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "started_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "finished_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "phase": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "message": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "initiated_by_username": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "initiated_by_automated": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "retry_count": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "dry_run": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "resources_total": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "resources_failed": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "in_history": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "from_operation_state": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "inserted_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  }
+}
