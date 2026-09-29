@@ -11,7 +11,7 @@ setup(
     python_requires=">=3.10",
     install_requires=[
         "singer-python==6.3.0",
-        "requests==2.32.5",
+        "requests==2.33.0",
     ],
     extras_require={"dev": ["pytest", "pylint"]},
     entry_points="""
